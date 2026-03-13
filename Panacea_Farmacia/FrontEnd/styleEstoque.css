@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+    }
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #0E5959, #4C6A52, #8C7F56);
+    }
+
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.estoque {
+    color: white;
+    background-color: #1a4d4d; 
+    padding: 15px;
+    border-radius: 15px;
+    width: 680px;
+}
+
+input {
+    width: 650px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+select {
+    width: 200px;
+}
+
+.enviar {
+    text-align: center;
+    border: 200px;
+   
+}
+
+footer {
+    color: white;
+    margin-top: 20px;
+    
+}

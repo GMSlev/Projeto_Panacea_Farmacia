@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "FrontEnd/styleLogin.css">
+    <link rel ="icon" href = "./FrontEnd/imgs/Panácea.jpg"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <title>Login</title>
+</head> 
+<body>
+    <img src="FrontEnd/imgs/panacea1.png" alt="imagem panácea">
+    <h1>panácea</h1>
+    <h2 id="principal">software</h2>
+    <div class ="glass-container">
+        <h2>Login</h2>
+        <form method="get" action="FrontEnd/Inicio.html"> <!-- Redireciona para arquivo de autenticação -->
+            <div class="input-group">
+                <label>Usuário</label>
+                <input type="text" name="usuario" id="usuario" required>
+        
+                <label>Senha</label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+
+            <div class = "remember-forgot">
+                <label><input type ="checkbox">Lembrar de mim</label>
+                <a href ="#">Esqueceu a senha?</a>
+            </div>
+
+            <button type="submit" class ="login-btn">Entrar</button>
+            <div class ="register-link">
+                <p>Não tem uma conta? <a href ="./FrontEnd/cadastro.html">Registrar</a>
+                </p>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>
